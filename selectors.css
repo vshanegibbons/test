@@ -1,4 +1,7 @@
 header {
-    border: 1px blue;
+    border: 1px solid blue;
 }
 
+#nav {
+    list-style-type: none;
+}
