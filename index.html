@@ -1,133 +1,107 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en-US">
-<!--<![endif]-->
+<DOCTYPE html>
+    <html>
 
-<head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Shane's Test</title>
+        <link rel="stylesheet" type="text/css" href="selectors.css">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    </head>
 
-    <title>From Scratch Magazine</title>
+    <body>
 
-    <meta name="description" content="Harper is a minimal portfolio template for creatives. You can add a brief description of your works here, just make sure it doesn't exceed 156 characters.">
-    <meta name="author" content="Harper">
-    <meta name="viewport" content="width=device-width">
+        <header>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li>Profile</li>
+                <li>Blog</li>
+            </ul>
+        </header>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.min.css?ver=1.1.2">
-    <link rel="stylesheet" href="css/main.min.css?ver=1.0.0">
-    <link rel="stylesheet" href="css/responsive.min.css?ver=1.0.0">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <section>
+            <div class="month-list">
+                <ul>
+                    <li>
+                        <a href="#">January</a>
+                        <span class="disabled">My favorite month</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="active">February</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="disabled">March</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">April</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="promo">
+                                <span class="disabled">May</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">June</a>
+                    </li>
+                    <li>
+                        <a href="#">July</a>
+                    </li>
+                    <li>
+                        <a href="#">August</a>
+                        <span class="disabled">My least favorite month</span>
+                    </li>
+                    <li>
+                        <a href="#" class="disabled">September</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- Favicon & Apple Touch Icons -->
-    <link rel="shortcut icon" href="images/icons/harper-favicon.ico">
-    <link rel="apple-touch-icon" href="images/icons/harper-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/harper-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/harper-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/harper-icon-152x152.png">
-
-    <!-- Header Scripts -->
-    <script src="js/modernizr.min.js?ver=2.6.2"></script>
-    <script src="js/respond.min.js?ver=1.1.0"></script>
-
-</head>
-
-<body>
-
-    <div id="page-content">
-
-        <div id="page-content-wrapper">
-
-            <!--[if lt IE 7]>
-					<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-				<![endif]-->
-
-            <header id="page-header">
-
-                <div id="logo" class="one-half">
-                    <a id="page-typography-logo" href="index.html" title="Meet Harper"><img src="images/sglogo.png" width="200" height="90" alt="logo"></a>
-                    <br>
-                    <h3></h3>
+        <section>
+            <div class="grandparent">
+                <div class="parent">
+                    <h4>Child of parent</h4>
+                    <div>
+                        <div>I'm red!</div>
+                        <h4>I'm red's sister
+                            <div>I'm blue!</div>
+                            <h4>I'm blue's brother</h4>
+                    </div>
                 </div>
+                <h4>Child of grandparent</h4>
+            </div>
+        </section>
 
-                <div class="one-half last">
-                    <nav id="page-nav">
-                        <ul>
-                            <li><a class="current" href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+        <footer class="padded">
 
-                <div class="clearfix"></div>
+            <div class="disclaimer">
+                Only one purchase per household.
+                <a href="#">
+                    <span class="footer-link">
+              <span class="disabled">
+                Privacy Policy
+              </span>
+                    </span>
+            </div>
 
-            </header>
+            <div class="promo">
+                Purchase a book today and receive the eBook for free!
+            </div>
 
-            <section id="main-content">
+            <span>
+            <input type="text" name="email" placeholder="Enter your email address">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="tel" name="telephone" placeholder="Enter your telephone number">
+        </span>
 
-                <article id="full-project">
+        </footer>
 
-                    <h2>From Scratch Magazine</h2>
+    </body>
 
-                    <p>From Scratch Southern Culture Magazine is a complete design and layout of a 24 page magazine. Below is a sampling of pages from the project.</p>
-
-                    <br>
-
-                    <h2>Cover</h2>
-                    <img src="images/fscover.jpg" alt="cover">
-                    <h2>Departments</h2>
-                    <img src="images/fsdepartments.jpg" alt="depart">
-                    <h2>Cover Article Spread with Ad and Visual Verbal</h2>
-                    <img src="images/fsfood1.jpg" alt="food1">
-                    <img src="images/fsfood2.jpg" alt="food2">
-                    <img src="images/fsfood3.jpg" alt="food3">
-                    <h2>Article Splash Pages</h2>
-                    <img src="images/fskeys.jpg" alt="black keys">
-
-                </article>
-
-                <nav id="projects-navigation">
-                    <a class="button" href="ugly.html">&larr; Prev. project</a>
-                    <a class="button" href="index.html">Home</a>
-                    <a class="button" href="glam.html">Next project &rarr;</a>
-                </nav>
-
-            </section>
-
-            <footer id="page-footer">
-
-                <div class="one-half">
-                    <p>Copyright &copy; 2015, V. Shane Gibbons </p>
-                </div>
-
-                <div class="clearfix"></div>
-
-            </footer>
-
-        </div>
-
-    </div>
-
-    <!-- Footer Scripts -->
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/jquery.min.js?ver=1.10.2"><\/script>')
-    </script>
-    <script src="js/jquery.easing.js?ver=1.3"></script>
-    <script src="js/harper.main.min.js?ver=1.0.0"></script>
-    <script src="js/jquery.fitvids.js?ver=1.0.3"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $('.embedded-video-container').fitVids();
-        });
-    </script>
-
-</body>
-
-</html>
+    </html>
+</DOCTYPE>
