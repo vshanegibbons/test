@@ -1,7 +1,22 @@
-header {
-    border: 1px solid blue;
+.wrap {
+    width: 100%;
 }
 
-#nav {
-    list-style-type: none;
+#header {
+    width: 100%;
+    margin: 0px auto;
+    padding: 150px 0 150px 0;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#subhead {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3A6EFF;
+    text-align: center;
 }
