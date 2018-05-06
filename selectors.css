@@ -1,22 +1,77 @@
-.wrap {
-    width: 100%;
-}
-
-#header {
-    width: 100%;
-    margin: 0px auto;
-    padding: 150px 0 150px 0;
-}
-
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
-#subhead {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #3A6EFF;
-    text-align: center;
-}
+                                                        body {
+                                                        width: 90%;
+                                                        margin: 0px auto;
+                                                    }
+                                                    
+                                                    .wrap {
+                                                        width: 100%;
+                                                    }
+                                                    
+                                                    #header {
+                                                        width: 100%;
+                                                        margin: 0px auto;
+                                                        padding: 150px 0 150px 0;
+                                                    }
+                                                    
+                                                    .logo {
+                                                        display: block;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        width: 75%;
+                                                    }
+                                                    
+                                                    #subhead {
+                                                        font-family: Arial, Helvetica, sans-serif;
+                                                        font-size: 1.25em;
+                                                        color: #3A6EFF;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    #probstatement {
+                                                        margin: 0px auto;
+                                                        float: left;
+                                                        width: 50%;
+                                                        overflow: hidden;
+                                                    }
+                                                    
+                                                    #probimage {
+                                                        margin-left: auto;
+                                                        margin-right: 0;
+                                                        Overflow: hidden;
+                                                        width: 50%;
+                                                        align: right;
+                                                    }
+                                                    
+                                                    #professionals {
+                                                        display: block;
+                                                        width: 75%;
+                                                        margin-left: auto;
+                                                        margin-right: 0;
+                                                    }
+                                                    
+                                                    #problem {
+                                                        width: 75%;
+                                                        margin: 0px auto;
+                                                    }
+                                                    
+                                                    @media screen and (max-width: 600px) {
+                                                        #probstatement {
+                                                            float: none;
+                                                            margin-right: 0;
+                                                            width: auto;
+                                                            border: 0;
+                                                        }
+                                                        @media screen and (max-width: 600px) {
+                                                            #probimage {
+                                                                float: none;
+                                                                margin: 20px auto 0 auto;
+                                                                width: 100%;
+                                                                border: 0;
+                                                            }
+                                                        }
+                                                        @media screen and (max-width: 600px) {
+                                                            #professionals {
+                                                                margin-left: 0px;
+                                                                margin-right: auto;
+                                                            }
+                                                        }
